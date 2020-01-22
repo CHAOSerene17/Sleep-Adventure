@@ -6,13 +6,20 @@ def print_lyrics():
   print("Så rå, lille mann,")
   print("Nå er dagen over.")
 
-print("Are you sleepy?")
+print("Are you sleepy? \n Type Yes/Maybe/No")
 Answer1 = input()
 
 if Answer1 == x:
   print("Would you like to read a song?")
   Answer2 = input()
-  print_lyrics()
+  if Answer2 == x:
+    print_lyrics()
+  if Answer2 == y:
+    print("Maybe you'll like it if I begin. \n Så rå, lille mann--")
+    input()
+    print("My screeching is annoying you? I never said I was good at it...")
+  if Answer2 == z:
+    print("Eat my shorts.")
 
 if Answer1 == y:
   print("Would you like a glass of milk?")
@@ -24,7 +31,7 @@ if Answer1 == y:
   if Answer == z:
     print("This isn't working out. I'll call you a UHAUL.")
 
-if Answer1 == z: 
+elif Answer1 == z:
   print("Then leave me alone.")
   Answer3 = input()
   if Answer3 == z:
